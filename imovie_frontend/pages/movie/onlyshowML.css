@@ -1,0 +1,64 @@
+.Center {
+  width: 80%;
+  margin: 20px auto;
+}
+.Center .watchListComponent {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.Center .watchListComponent .title-box {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom: 1px solid #ececec;
+}
+.Center .watchListComponent .title-box .title {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  line-height: 60px;
+  margin: 0;
+}
+.Center .watchListComponent .des-box {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+.Center .watchListComponent .des-box .des {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  line-height: 60px;
+  margin: 0;
+}
+.Center .watchListComponent .list-detail-pagination {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Center .watchListComponent .imgBox {
+  position: relative;
+  width: 100%;
+  display: flex;
+  /*justify-content: space-between;*/
+  flex-wrap: wrap;
+  margin: 40px auto 20px auto;
+  /*overflow : hidden;*/
+}
+.Center .watchListComponent .imgBox .swiper-image-list-item {
+  margin-bottom: 20px;
+}
+.Center .watchListComponent .empty {
+  width: 100%;
+  margin: 0 auto;
+}
+.Center .watchListComponent .empty img {
+  display: block;
+  width: 15%;
+  margin: 10px auto 10px auto;
+}
+.Center .watchListComponent .empty h5 {
+  text-align: center;
+  font-size: 14px;
+  color: #cdcdcd;
+}
